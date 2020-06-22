@@ -1,0 +1,238 @@
+#admin{
+	position:absolute;
+	background:gray;
+	width:3em;
+	text-align:center;
+	top:0;
+	left:0;
+	padding:5px;
+	font-size:.6em;
+}
+
+#admin a{
+	text-decoration:none;
+	color:white;
+}
+
+body{
+	float:left;
+	width: 80%;
+	background-image: url(../img/site_img/super_pin.jpeg);
+	margin: 8vh 10% 8vh 10%;
+	font-family: Helvetica, sans-serif;
+}
+
+#header{
+	float:left;
+	width:100%;
+	background:#F8FFF4;
+	border-bottom: 0.1vh solid grey;
+	border-radius:  1em 1em 0 0;
+}
+
+#body{
+	float:left;
+	height: 70%;
+	width:100%;
+	background:#F8FFF4;
+	min-height:250px;
+}
+
+#body .texte_accueil{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-self: center;
+	padding: 3vh;
+	width: 100%;
+}
+
+#body .card_accueil{
+	display: flex;
+	flex-direction: row;
+}
+
+#body .pagination{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 2vh;
+}
+
+.pagination a {
+	color: black;
+	text-decoration: none;
+}
+
+
+#footer{
+	float:left;
+	width:100%;
+	background: #F8FFF4;
+	border-top: 0.1vh solid grey;
+	border-radius: 0 0 1em 1em;
+}
+
+#header .content{
+	padding:2ex 2em;
+}
+
+#body .content{
+padding:4ex 2em;
+}
+
+#footer .content{
+	padding:1ex 1em;
+}
+
+#header h1{
+	display:inline;
+}
+
+#footer span{
+	font-weight:bold;
+	font-size:1em;
+	display:inline;
+}
+
+#header .menu,
+#footer .menu{
+	display:inline;
+	float:right;
+}
+
+#footer .menu{
+	margin:auto;
+}
+
+#header .menu li,
+#footer .menu li{
+	display:inline;
+}
+
+#header .menu_admin{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	list-style: none;
+}
+
+.menu_admin a {
+	text-decoration: none;
+	color: black;
+	border: 0.1vh solid grey;
+	border-radius: 0.3em;
+	padding: 1vh;
+}
+
+#header .menu a,
+#footer .menu a{
+	color:BLACK;
+	margin:0 2ex;
+	text-decoration:none;
+}
+
+#header .menu .active{
+	font-weight:bold;
+}
+
+#header .menu li:after,
+#footer .menu li:after{
+    content:"|";
+	font-weight:bold;
+}
+
+#header .menu li:last-of-type:after,
+#footer .menu li:last-of-type:after{
+    content:"";
+}
+
+.tag ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	margin-top: 5vh;
+}
+
+.tag a{
+	color: black;
+	text-decoration: none;
+	border: 0.1vh solid grey;
+	border-radius: 0.3em;
+	padding: 2vh;
+}
+
+.menu_projet{
+display:flex;
+justify-content:center;
+width:100%;
+margin:0 auto;
+}
+
+.menu_projet ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 5vh;
+}
+
+li.menu_projet{
+	display: flex;
+	flex-direction: column;
+}
+
+.menu_projet .space{
+	margin:2em;
+}
+
+.space a {
+	text-decoration: none;
+}
+
+a.add_project{
+	color: black;
+	text-decoration: none;
+	border: 0.1vh solid grey;
+	border-radius: 0.3em;
+	padding: 3vh;
+}
+
+#body .form_accueil{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+border: 0.1vh solid grey;
+border-radius: 0.3em;
+padding: 4vh;
+margin-left: 15vh;
+margin-right: 15vh;
+}
+
+#body .input_accueil{
+	text-align: center;
+	align-self: center;
+	margin: 2vh;
+	padding: 1vh;
+	width: 30%;
+}
+
+#body .input_projet{
+	text-align: center;
+	align-self: center;
+	margin: 2vh;
+	padding: 1vh;
+	width: 40%;
+}
+
+a .legend{
+	color: black;
+	text-decoration: none;
+}
+
+.contact{
+	text-align: center;
+	vertical-align: middle;
+}
