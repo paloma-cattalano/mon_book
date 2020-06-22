@@ -17,7 +17,7 @@ CREATE TABLE `content` (
   `index_picture_url` varchar(50) NOT NULL,
   `index_title` text NOT NULL,
   `index_description` text NOT NULL,
-  `email` varchar(25) NOT NULL,
+  `email` varchar(35) NOT NULL,
   `phone` varchar(25) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
